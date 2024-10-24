@@ -28,3 +28,5 @@ Key Features:
 Fine-tuning RoBERTa on custom datasets.
 Implementation for various NLP tasks (e.g., sentiment analysis, NER).
 Supports loading and utilizing the pretrained model with minimal code.
+
+![senti](https://github.com/user-attachments/assets/2aca179f-35b2-418e-8764-bc4c86130a86)
