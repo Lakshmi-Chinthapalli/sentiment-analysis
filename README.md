@@ -14,3 +14,17 @@ Python (Pandas, NumPy)
 Scikit-learn
 NLTK / SpaCy
 Matplotlib / Seaborn
+
+#VADER (Valence Aware Dictionary and sEntiment Reasoner)
+
+VADER is a rule-based sentiment analysis tool designed for analyzing social media content. It uses a lexicon-based approach combined with grammatical and syntactical rules to evaluate the sentiment of text. The sentiment score is based on the polarity of individual words (positive, negative, neutral), including intensity modifiers such as degree adverbs ("very" or "slightly"). VADER also accounts for punctuation, capitalization, and emoticons, making it highly effective for assessing short and informal text. It's a fast, lightweight tool that performs well on tweets, reviews, and other user-generated content.
+
+#RoBERTa Pretrained Model - Hugging Face 🤗
+
+This project explores the RoBERTa (A Robustly Optimized BERT Pretraining Approach), a transformer-based NLP model from Hugging Face's 🤗 model hub. RoBERTa builds on BERT by modifying key hyperparameters, removing the Next Sentence Prediction task, and training with larger datasets, resulting in improved performance on several NLP benchmarks. This repository provides an implementation of RoBERTa for tasks like text classification, token classification, and more, using the Hugging Face transformers library.
+
+Key Features:
+
+Fine-tuning RoBERTa on custom datasets.
+Implementation for various NLP tasks (e.g., sentiment analysis, NER).
+Supports loading and utilizing the pretrained model with minimal code.
